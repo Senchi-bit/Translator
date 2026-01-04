@@ -1,0 +1,16 @@
+﻿<Window x:Class="Translator.TranslationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Перевод" Height="400" Width="600"
+        WindowStartupLocation="CenterScreen"
+        Closing="Window_Closing">
+    <Grid Margin="10">
+        <TextBox x:Name="TranslationTextBox" 
+                 IsReadOnly="True"
+                 TextWrapping="Wrap" 
+                 VerticalScrollBarVisibility="Auto"
+                 HorizontalScrollBarVisibility="Auto"
+                 FontSize="14"
+                 Background="#FFF5F5F5"/>
+    </Grid>
+</Window>
